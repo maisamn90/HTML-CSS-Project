@@ -1,0 +1,122 @@
+body{
+	text-align:center;
+	margin:0;
+}
+
+header{
+	background-color:green;
+	border:2px solid #000;
+	text-align:left;
+}
+
+.logo {
+	text-align:left;
+	margin-left:20px;
+	display:inline-block;
+	width: 30%;
+}
+
+nav{
+	display:inline-block;
+	text-align: right;
+	width: 63%;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display:inline-block;
+	margin: 0 5px;
+
+}
+
+nav li a {
+	color:#000;
+	text-decoration:none;
+}
+
+nav li a:hover {
+	text-decoration:underline;
+}
+
+section{
+	background-color:blue;
+	padding: 20px 0;
+	border:2px solid #000;
+	height:100vh;
+}
+
+section h1 {
+	margin:0 0 20px 0;
+}
+
+article{
+	display:inline-block;
+	width:20%;
+	margin:10px;
+}
+
+article a img {
+	height: 100px;
+	border:2px solid #000;
+	width: 100px;
+	padding: 4px;
+	background-color:#fff;
+}
+
+footer{
+	background-color:green;
+	border:2px solid #000;
+}
+
+footer p {
+	display:inline-block;
+    margin: 12px 10%;
+}
+
+@media (max-width:700px){
+	article{
+	display:inline-block;
+	width:95%;
+	margin:10px;
+	}
+	section {
+		height: auto;
+	}
+	.logo {
+    width: 38%;
+	vertical-align: top;
+	}
+	nav {
+    width: 48%;
+	}
+	nav ul li {
+	display:block;
+
+}
+}
+
+.form-container {
+	border:2px solid #000;
+	margin:0 10%;
+	padding:10px 30px;
+}
+
+form {
+	text-align:left;
+}
+
+form input {
+	background-color:transparent;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom: 1px solid #000;
+	margin:10px 0;
+}
+
+form input[type=submit] {
+	background-color: yellow;
+    border: 2px solid #000;
+    display: block;
+    margin: 0 auto;
+}
