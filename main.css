@@ -16,25 +16,25 @@ header{
 	width: 30%;
 }
 
-nav{
+header nav{
 	display:inline-block;
 	text-align: right;
 	width: 63%;
 	margin-right: 20px;
 }
 
-nav ul li {
+header nav ul li {
 	display:inline-block;
 	margin: 0 5px;
 
 }
 
-nav li a {
+header nav li a {
 	color:#000;
 	text-decoration:none;
 }
 
-nav li a:hover {
+header nav li a:hover {
 	text-decoration:underline;
 }
 
@@ -56,7 +56,7 @@ article{
 }
 
 article a img {
-	height: 100px;
+	height:100px;
 	border:2px solid #000;
 	width: 100px;
 	padding: 4px;
@@ -68,9 +68,9 @@ footer{
 	border:2px solid #000;
 }
 
-footer p {
+footer nav li {
 	display:inline-block;
-    margin: 12px 10%;
+    margin: 0px 10%;
 }
 
 @media (max-width:700px){
@@ -86,10 +86,10 @@ footer p {
     width: 38%;
 	vertical-align: top;
 	}
-	nav {
+	header nav {
     width: 48%;
 	}
-	nav ul li {
+	header nav ul li {
 	display:block;
 
 }
